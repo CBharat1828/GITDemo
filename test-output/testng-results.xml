@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-19T10:22:44 IST" name="Default suite" finished-at="2024-08-19T10:23:25 IST" duration-ms="40591">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" name="submitOrder" class="BharatPractice.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-19T10:22:44 IST" name="Default test" finished-at="2024-08-19T10:23:25 IST" duration-ms="40591">
+      <class name="BharatPractice.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:22:44 IST" name="launchApplication" finished-at="2024-08-19T10:22:59 IST" duration-ms="14826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:22:59 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-19T10:23:04 IST" duration-ms="4797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Bharat@1234, email=bharat1234@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:04 IST" name="tearDown" finished-at="2024-08-19T10:23:04 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:04 IST" name="launchApplication" finished-at="2024-08-19T10:23:16 IST" duration-ms="11304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:16 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-19T10:23:20 IST" duration-ms="4399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sai@1234, email=sai1234@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:20 IST" name="tearDown" finished-at="2024-08-19T10:23:20 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:20 IST" name="launchApplication" finished-at="2024-08-19T10:23:23 IST" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:23 IST" name="OrderHistoryTest" finished-at="2024-08-19T10:23:24 IST" depends-on-methods="BharatPractice.Tests.SubmitOrderTest.submitOrder" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BharatPractice.Tests.SubmitOrderTest@74fe5c40]" started-at="2024-08-19T10:23:24 IST" name="tearDown" finished-at="2024-08-19T10:23:25 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BharatPractice.Tests.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

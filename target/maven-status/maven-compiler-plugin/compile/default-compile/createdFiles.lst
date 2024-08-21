@@ -1,0 +1,8 @@
+Bharat\PageObjects\LandingPage.class
+Bharat\AbstractComponents\AbstractComponent.class
+Bharat\Resources\ExtentReportNG.class
+Bharat\PageObjects\ConfirmationPage.class
+Bharat\PageObjects\OrdersPage.class
+Bharat\PageObjects\ProductCatalogue.class
+Bharat\PageObjects\CartPage.class
+Bharat\PageObjects\CheckOutPage.class
